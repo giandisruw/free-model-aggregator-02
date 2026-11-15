@@ -1,3 +1,9 @@
+[![make.fun · free-model-aggregator-02](https://make.fun/badge/free-model-aggregator-02.svg)](https://make.fun/bounty/free-model-aggregator-02?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
+[![rank](https://make.fun/badge/free-model-aggregator-02/giandisruw/free-model-aggregator-02/rank.svg)](https://make.fun/bounty/free-model-aggregator-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
+[![reward](https://make.fun/badge/free-model-aggregator-02/giandisruw/free-model-aggregator-02/reward.svg)](https://make.fun/bounty/free-model-aggregator-02?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
+
+Built for the [make.fun bounty "The best live free-model aggregator"](https://make.fun/bounty/free-model-aggregator-02) — $500 in USDC.
+
 # free-model-aggregator-02 — a live free-model aggregator
 
 One server that serves an OpenAI-compatible API (`POST /v1/chat/completions`)
@@ -79,3 +85,7 @@ makefun secrets push free-model-aggregator-02 --env-file .env
 with `.env` holding `OPENROUTER_API_KEY=<your key>`. Without a pushed key
 every model call is refused HTTP 401, no prompt is served, and the entry
 is not ranked. Never put a key in this repository.
+
+---
+
+Referral code: `0txwmf1m`
